@@ -1,6 +1,7 @@
 * Todos
 
-** TODO Use postgresql in production
+** DONE Use postgresql in production
+   CLOSED: [2016-07-03 Sun 22:28]
  [2016-07-03 Sun 22:26]
 
 ** TODO Install devise
