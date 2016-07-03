@@ -1,0 +1,11 @@
+* Todos
+
+** TODO Use postgresql in production
+ [2016-07-03 Sun 22:26]
+
+** TODO Install devise
+ [2016-07-03 Sun 22:26]
+
+** TODO Use bootstrap templates
+ [2016-07-03 Sun 22:27]
+
