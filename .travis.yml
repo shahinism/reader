@@ -1,4 +1,11 @@
 language: ruby
 rvm:
   - 2.3.1
+before_install:
+  - gem update bundler
+  - 'echo "RUBY_VERSION: $RUBY_VERSION"'
+script: 
+  - bundle exec rake db:migrate
+  - bundle exec rake test
 bundler_args: --without production development
+sudo: false
