@@ -1,7 +1,9 @@
 require 'test_helper'
 
 class PagesControllerTest < ActionDispatch::IntegrationTest
-  # test "the truth" do
-  #   assert true
-  # end
+
+  test "Test home route" do
+    assert_routing '/', controller: "pages", action: "home"
+  end
+
 end
