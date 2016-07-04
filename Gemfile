@@ -1,11 +1,10 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0'
 gem 'devise'
 gem 'therubyracer'
-gem 'less-rails' #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem 'less-rails' # Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 # Use Puma as the app server
@@ -40,7 +39,8 @@ group :development, :test do
   gem 'sqlite3'
 
   # Codeclimate setup
-  gem "codeclimate-test-reporter", require: nil
+  gem 'codeclimate-test-reporter', require: nil
+  gem 'rubocop', require: nil
 end
 
 group :development do

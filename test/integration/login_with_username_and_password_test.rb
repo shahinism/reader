@@ -16,12 +16,11 @@ class LoginWithUsernameAndPasswordTest < ActionDispatch::IntegrationTest
     assert_equal 'Signed in successfully.', flash[:notice]
   end
 
-  test "User should be able to login with username" do
-    login_test({ login: @user.username, password: @password })
+  test 'User should be able to login with username' do
+    login_test(login: @user.username, password: @password)
   end
 
-  test "User should be able to login with email" do
-    login_test({ login: @user.email, password: @password })
+  test 'User should be able to login with email' do
+    login_test(login: @user.email, password: @password)
   end
-
 end
