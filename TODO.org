@@ -12,6 +12,10 @@
    CLOSED: [2016-07-04 Mon 10:10]
  [2016-07-03 Sun 22:27]
 
-** TODO Add user's first and last name to registration
+** DONE Add user's first and last name to registration
+   CLOSED: [2016-07-04 Mon 11:55]
  [2016-07-04 Mon 10:11]
+
+** DONE Use username to login
+ [2016-07-04 Mon 11:55]
 
