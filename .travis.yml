@@ -7,6 +7,5 @@ before_install:
 script: 
   - bundle exec rake db:migrate
   - bundle exec rake test
-  - bundle exec rubocop
 bundler_args: --without production development
 sudo: false
