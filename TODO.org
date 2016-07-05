@@ -19,3 +19,7 @@
 ** DONE Use username to login
  [2016-07-04 Mon 11:55]
 
+** TODO Users should be able to add feed sources if they don't already exist
+   [2016-07-05 Tue 14:06]
+** TODO Users should be able to track feeds
+   [2016-07-05 Tue 14:06]
