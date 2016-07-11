@@ -13,7 +13,9 @@
         <td><%= link_to subscription.url, subscription.url %></td>
         <td>
           <%= link_to "Edit", edit_subscription_path(subscription)%> |
-          <%= link_to "Delete", subscription_path(subscription), method: :delete %>
+          <%= link_to "Delete",
+              subscription_path(subscription),
+              method: :delete, data: { confirm: "Are you sure?" } %>
         </td>
       <% end %>
     </tr>
