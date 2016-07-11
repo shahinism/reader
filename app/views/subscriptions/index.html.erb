@@ -11,7 +11,10 @@
       <% @subscriptions.each do |subscription| %>
         <td><%= subscription.name %></td>
         <td><%= link_to subscription.url, subscription.url %></td>
-        <td>#</td>
+        <td>
+          <%= link_to "Edit", edit_subscription_path(subscription)%> |
+          <%= link_to "Delete", subscription_path(subscription), method: :delete %>
+        </td>
       <% end %>
     </tr>
   </tbody>
