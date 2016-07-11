@@ -1,0 +1,12 @@
+<%= form_for(:subscription, remote: true) do |f| %>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="input-group">
+        <%= f.url_field :url, class: "form-control", placeholder: "Feed address" %>
+        <span class="input-group-btn">
+          <%= f.submit "Subscribe", class: "btn btn-default" %>
+        </span>
+      </div>
+    </div>
+  </div>
+<% end %>
