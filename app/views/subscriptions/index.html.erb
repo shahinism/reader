@@ -1,0 +1,18 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <td>Name</td>
+      <td>Address</td>
+      <td>Operations</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <% @subscriptions.each do |subscription| %>
+        <td><%= subscription.name %></td>
+        <td><%= link_to subscription.url, subscription.url %></td>
+        <td>#</td>
+      <% end %>
+    </tr>
+  </tbody>
+</table>
